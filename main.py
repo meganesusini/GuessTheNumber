@@ -30,7 +30,7 @@ while (nb != result) :
         nb = nbType(nb)
     if (nb > result) :
         print("Less")
-    else :
+    elif (nb < result) :
         print("More")
 print("You found the right number !")
 
